@@ -1,0 +1,20 @@
+{
+    "name": "b13/view-tracker-cdn-country",
+    "description": "Country enrichment for b13/view-tracker via CDN headers (Cloudflare, Fastly, CloudFront)",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": "^8.1",
+        "b13/view-tracker": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "B13\\ViewTrackerCdnCountry\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "view_tracker_cdn_country"
+        }
+    }
+}
